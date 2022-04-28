@@ -7,4 +7,23 @@ mydict = {
 
 }
 
+
+#print the keys of the dictionary
 print(list(mydict.keys()))
+
+#print the value of the the dictionary
+print(list(mydict.values()))
+
+
+#update the dictionary
+print(mydict)
+updatedict={ 
+    "frirndly": "friend"
+}
+mydict.update(updatedict)
+print(mydict)
+
+
+#to get the value of the key
+print(mydict.get("harry"))
+
