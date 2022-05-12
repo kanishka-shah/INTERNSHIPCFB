@@ -1,0 +1,37 @@
+/*******************************TAG SELECTOR**********************/
+
+h1{
+    color: red;
+    font-size: 200px;
+}
+
+
+img:hover{
+    background-color: gold;
+
+}
+
+
+
+
+/************************CLASS SELECTOR***********************/
+
+.favourites{
+    background-color: green;
+}
+
+.painting{ 
+    background-color: blue;
+}
+
+.circular{
+    border-radius: 100%;
+}
+
+#heading{
+    color: blue;
+}
+
+
+
+
