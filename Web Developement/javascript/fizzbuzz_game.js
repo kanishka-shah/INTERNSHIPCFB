@@ -3,6 +3,10 @@ var count = 1;
 
 function fizzbuzz()
 {
+    if(count % 3 === 0 && count % 5 === 0)
+    {
+        output.push("fizzbuzz");
+    }
     if(count%3===0)
     {
         output.push("fizz");
